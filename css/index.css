@@ -16,7 +16,7 @@ width: 700px;
 
 nav{
     background: #f9f9f9;
-    width: 250px;
+    width: 200px;
     position: fixed;
     top: 45px;
     left: 10px;
@@ -35,7 +35,7 @@ p{
  margin-top: 0,5%;
 }
 
-h1, h2, h3, p, ul, ol, div, img, hr {
+h1, h2, h3, p, ul, ol, div, hr {
     width: 700px;
     margin: 20px auto;
 }
@@ -48,4 +48,32 @@ h2 {
 h3 {
     font-size: 15px;
     font-weight: bold; 
+}
+
+.img_apart{
+   width: 70%;
+   margin-left: 15%;
+   margin-top: 1%;
+}
+
+h1 + p{
+    margin-top: 8px;
+    line-height: 32px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+blockquote{
+    margin-top: 30px;
+    margin-left: 20%;
+    border-left: 1px solid palevioletred;
+    width: 60%;
+    padding: 1%;
+}
+.container_img{
+   display: flex;
+}.container_img > img > img{
+    width: 30%;
+    margin-right: 2%;
 }
