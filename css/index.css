@@ -16,12 +16,15 @@ width: 700px;
 
 nav{
     background: #f9f9f9;
-    width: 200px;
+    width: 250px;
     position: fixed;
     top: 45px;
     left: 10px;
     padding: 10px;
     box-sizing: border-box;
+    overflow: hidden;
+    height: 90vh;
+    overflow-y: scroll;
     opacity: 0,1;
     transition: all 0,5s ease;
 }
@@ -31,11 +34,19 @@ nav:hover{
       transition: all 0,5s ease;
 
 }
+
+nav a{
+    text-wrap: wrap;
+    position: relative;
+    width: 200px;
+    font-size: 1vw;
+    padding: 10px;
+}
 p{ 
  margin-top: 0,5%;
 }
 
-h1, h2, h3, p, ul, ol, div, hr {
+h1, h2, h3, p, ol, div, hr {
     width: 700px;
     margin: 20px auto;
 }
