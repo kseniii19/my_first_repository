@@ -1,0 +1,13 @@
+@font-face{
+    font-family: "Jura Nunito";
+    src: url("../fonts/Jura-VariableFont_wght.ttf") format(truetype);
+    font-weight: 200;
+    font-style: light;
+}
+
+@font-face {
+    font-family: "Uncage" ;
+    src: url("../fonts/ofont.ru_Uncage.ttf") format(truetype);
+    font-weight: 800;
+    font-style: bold;
+}
