@@ -10,8 +10,8 @@
 h1{
 color: black;
 font-size: 3vw;
-margin: 3% 30%;
-width: 700px;
+/* margin: 3% 30%; */
+/* width: 700px; */
 }
 
 nav{
@@ -46,7 +46,7 @@ p{
  margin-top: 0,5%;
 }
 
-h1, h2, h3, p, ol, hr {
+ h2, h3, ol, hr {
     width: 700px;
     margin: 20px auto;
 }
@@ -67,13 +67,13 @@ h3 {
    margin-top: 1%;
 }
 
-h1 + p{
+/* h1 + p{
     margin-top: 8px;
     line-height: 32px;
     font-size: 22px;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4); */
 
-}
+
 
 blockquote{
     font-family: "Jura Nunito";
@@ -101,7 +101,7 @@ blockquote{
 .Header_img{
     width: 30px;;
 }
-.Header > div{
+.Header > {
     margin-left: 0 2%;
     width: 25%;
 }
@@ -137,7 +137,7 @@ margin-top: 4%;
     width: 115%;
     margin-left: 3%;
 } 
-.test > div{
+.test > {
     width: 30%;
     height: 300px;
     background-color: rgb(255, 127, 176);
@@ -148,4 +148,5 @@ margin-top: 4%;
     color: #953737;
 
 }
+
 

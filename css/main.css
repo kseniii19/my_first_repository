@@ -16,3 +16,37 @@ h1{
         color: brown;
         width: 100%;
     }
+/* тут стилизация для основного кода */
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main_about{
+        width: 80%;
+        background: #efefef;
+        margin: 0% auto;
+    }
+    .Header_img{
+width: 10%;
+    }
+    .div_for_text, .div_for_img{
+        width: 50%
+
+    }
+    .div_for_text h1{
+        text-align: left;
+    }
+    .div_for_text p{
+        text-align: left;
+        margin-left: 0%;
+    }
+    .img_in_div{
+        width: 160%;
+    }
+
+    .blok1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
